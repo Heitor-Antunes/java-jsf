@@ -12,7 +12,7 @@ public class LivroBean {
 	}
 	
 	public void cadastrar() {
-		System.out.println("Gravando Livro " + this.livro.getTitulo());
+		System.out.println("Gravando Livro: " + this.livro.getTitulo());
 	}
 
 }
